@@ -1,0 +1,51 @@
+{
+  "name": "genesis-ui-react",
+  "version": "0.2.0",
+  "description": "Genesis UI components and design foundations for React",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Apolo761/genesis-ui-react.git"
+  },
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "NOTICE.md"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/types/src/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./styles.css": "./dist/styles.css",
+    "./foundations.css": "./dist/foundations.css",
+    "./tokens": "./dist/tokens.json"
+  },
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "typecheck": "tsc --noEmit --emitDeclarationOnly false -p tsconfig.json",
+    "catalog:check": "node scripts/check-catalog-coverage.mjs",
+    "pack:check": "npm run build && npm run catalog:check && npm pack --dry-run",
+    "prepublishOnly": "npm run build && npm run catalog:check"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "esbuild": "0.25.12",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.5.3"
+  }
+}

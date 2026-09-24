@@ -1,0 +1,32 @@
+{
+  "targets": [
+    55220,
+    45287,
+    67077,
+    26999,
+    18037
+  ],
+  "groups": [
+    {
+      "ids": [
+        45287
+      ],
+      "source": "2db_njjycg4nf.js",
+      "sha256": "7b91d1d552518e1c3b91d3cd7659ddca62f27be988e4a353a26193ac63a845d2"
+    },
+    {
+      "ids": [
+        55220
+      ],
+      "source": "44qbjnjs1wl7e.js",
+      "sha256": "24cae94f168b59592c0285fbf9cd3a0e785c29aa50f224b92c336bb6426e86c6"
+    },
+    {
+      "ids": [
+        67077
+      ],
+      "source": "3gcdpq598-9sn.js",
+      "sha256": "b24ee7656a51640f3e468a9616d3f561aa2452ec066200be8adb20626926c4ac"
+    }
+  ]
+}

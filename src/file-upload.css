@@ -1,0 +1,54 @@
+.g-ref.genesis-file-upload {container-type:inline-size}
+.g-ref.genesis-file-upload>div {max-width:none}
+
+/* The original dropzone owns pointer events; its content is pointer-events-none. */
+.g-ref.genesis-file-upload [role="button"] {
+  --upload-icon-transform: translateY(0) scale(1);
+  --upload-arrow-transform: translate(0, 0);
+  background-color: var(--upload-surface, var(--color-paper));
+  transition: background-color 180ms ease, border-color 180ms ease;
+}
+.g-ref.genesis-file-upload [role="button"]>.pointer-events-none>:first-child {
+  transform: var(--upload-icon-transform);
+  transition: transform 220ms cubic-bezier(.16, 1, .3, 1);
+}
+.g-ref.genesis-file-upload [role="button"]>.pointer-events-none>:last-child svg {
+  transform: var(--upload-arrow-transform);
+  transition: transform 220ms cubic-bezier(.16, 1, .3, 1);
+}
+@media (hover:hover) {
+  .g-ref.genesis-file-upload [role="button"]:not([aria-disabled="true"]):hover {
+    --upload-surface: color-mix(in srgb, var(--color-paper), var(--color-foreground) 5%);
+    --upload-icon-transform: translateY(-2px) scale(1.06);
+    --upload-arrow-transform: translate(2px, -2px);
+    border-color: color-mix(in srgb, var(--color-border), var(--color-foreground) 28%);
+  }
+}
+.g-ref.genesis-file-upload [role="button"]:not([aria-disabled="true"]):focus-visible {
+  --upload-surface: color-mix(in srgb, var(--color-paper), var(--color-foreground) 5%);
+  --upload-icon-transform: translateY(-2px) scale(1.06);
+  --upload-arrow-transform: translate(2px, -2px);
+  outline: 2px solid var(--color-foreground);
+  outline-offset: 3px;
+}
+@media (prefers-reduced-motion:reduce) {
+  .g-ref.genesis-file-upload [role="button"],
+  .g-ref.genesis-file-upload [role="button"]>.pointer-events-none>:first-child,
+  .g-ref.genesis-file-upload [role="button"]>.pointer-events-none>:last-child svg {
+    transform: none;
+    transition: none;
+  }
+}
+
+@container(max-width:560px){
+  .genesis-file-upload [role="button"]>.pointer-events-none {display:grid;grid-template-columns:48px minmax(0,1fr);column-gap:12px;row-gap:8px}
+  .genesis-file-upload [role="button"]>.pointer-events-none>:last-child {grid-column:2}
+  .genesis-file-upload [role="button"] .truncate {white-space:normal;overflow:visible}
+}
+
+.genesis-file-upload-pending {padding:20px 24px;border:1px solid var(--color-border);border-radius:12px;background:var(--color-paper);min-height:88px;display:flex;align-items:center}
+.genesis-file-upload-pending>.g-progress-bar {width:100%;min-width:0}
+.genesis-file-upload-name {display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:100%;min-width:0}
+.genesis-file-upload-pending .g-progress-bar>div:first-child>div {min-width:0}
+.genesis-file-upload-error {min-width:0;max-width:100%;margin-top:12px;overflow-wrap:anywhere}
+.genesis-file-upload-retry.g-button {max-width:100%;white-space:normal;overflow-wrap:anywhere;text-align:left;height:auto}

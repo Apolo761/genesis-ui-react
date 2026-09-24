@@ -1,0 +1,10 @@
+/* The reference uses Tailwind 4's translate property. The host's Tailwind 3
+   transform utility would apply the same offset twice to these static layers.
+   Animated layers keep their original inline transforms. */
+.g-folder [class~="-translate-x-1/2"]:not([style]) { transform: none; }
+.g-folder--thumbnail { position: relative; }
+.g-folder.g-folder--thumbnail > img {
+  position: absolute; display: block; max-width: none;
+  left: -8.099688%; top: -2.962963%; width: 116.199377%; height: 107.407407%;
+  pointer-events: none; user-select: none;
+}

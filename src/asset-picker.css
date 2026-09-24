@@ -1,0 +1,7 @@
+.g-asset-picker { min-width: 0; }
+.g-asset-picker [data-slot="asset"] { border-radius: var(--g-radius-12); }
+.g-asset-picker [data-slot="asset"][aria-selected="true"] { border-color: var(--g-accent); box-shadow: 0 0 0 2px color-mix(in srgb, var(--g-accent) 30%, transparent); }
+.g-asset-picker [data-slot="asset"][aria-selected="true"] > span.absolute.top-1\.5 { background: var(--g-accent); color: var(--g-on-accent); }
+@media (max-width: 640px) {
+  .g-asset-picker [role="listbox"], .g-asset-picker [aria-busy="true"] { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}

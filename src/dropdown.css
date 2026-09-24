@@ -1,0 +1,9 @@
+/* Placement only; visual styles and motion come from the original Dropdown. */
+.g-dropdown { min-width: 0; }
+.g-ref .g-dropdown-icon-menu { min-width: min(14rem, var(--available-width)); }
+.g-ref .g-dropdown-wide-menu { min-width: min(18rem, var(--available-width)); max-width: min(28rem, var(--available-width)); }
+.g-select-field { position: relative; display: block; min-width: 0; }
+.g-select-field .g-native-select-contract { position: absolute !important; width: 1px !important; height: 1px !important; min-height: 0 !important; margin: 0 !important; padding: 0 !important; border: 0 !important; opacity: 0; clip-path: inset(50%); pointer-events: none; }
+.g-select-hint { color: var(--g-secondary); font: var(--g-type-numeric-weight) var(--g-type-numeric-size)/var(--g-type-numeric-line) var(--g-font-sans); margin-top: var(--g-space-4); }
+.g-select-inline > .g-dropdown > div { flex-direction: row; align-items: center; }
+.g-select-inline > .g-dropdown > div > label { flex-shrink: 0; }

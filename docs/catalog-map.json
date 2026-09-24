@@ -1,0 +1,109 @@
+{
+  "sections": [
+    { "name": "FOUNDATIONS", "items": [
+      { "label": "Colors & themes", "exports": ["colors", "foundations"] },
+      { "label": "Typography", "exports": ["typography"] },
+      { "label": "Spacing & radius", "exports": ["spacing", "foundations"] },
+      { "label": "Motion tokens", "exports": ["motionTokens"] },
+      { "label": "Icons", "exports": ["Icon"] },
+      { "label": "Animated Icons", "exports": ["AnimatedIcon"] },
+      { "label": "Brand Icons", "exports": ["BrandIcon"] }
+    ] },
+    { "name": "INPUTS", "items": [
+      { "label": "Button", "exports": ["Button"] },
+      { "label": "Button Group", "exports": ["ButtonGroup", "SegmentedControl"] },
+      { "label": "Flux Button", "exports": ["FluxButton"] },
+      { "label": "Icon Button", "exports": ["IconButton"] },
+      { "label": "Text Field", "exports": ["TextField"] },
+      { "label": "Textarea", "exports": ["TextArea"] },
+      { "label": "Search Field", "exports": ["SearchField"] },
+      { "label": "Number Field", "exports": ["NumberField"] },
+      { "label": "Checkbox Group", "exports": ["CheckboxGroup"] },
+      { "label": "Radio Group", "exports": ["RadioGroup"] },
+      { "label": "Switch", "exports": ["Switch"] },
+      { "label": "Slider", "exports": ["Slider"] },
+      { "label": "Duration Picker", "exports": ["DurationPicker"] },
+      { "label": "Delete Button", "exports": ["DeleteButton"] }
+    ] },
+    { "name": "SELECTION", "items": [
+      { "label": "Dropdown", "exports": ["Dropdown"] },
+      { "label": "Combobox", "exports": ["Combobox"] },
+      { "label": "Autocomplete", "exports": ["Autocomplete"] },
+      { "label": "Multi Select", "exports": ["MultiSelect"] },
+      { "label": "Account Picker", "exports": ["AccountPicker"] },
+      { "label": "Tag Picker", "exports": ["TagPicker"] }
+    ] },
+    { "name": "AUTOMATION", "items": [
+      { "label": "Quantity Picker", "exports": ["QuantityPicker"] },
+      { "label": "Schedule Picker", "exports": ["SchedulePicker"] },
+      { "label": "Interval Picker", "exports": ["IntervalPicker"] },
+      { "label": "Weekday Picker", "exports": ["WeekdayPicker"] },
+      { "label": "Timezone Picker", "exports": ["TimezonePicker"] },
+      { "label": "Date Picker", "exports": ["DatePicker"] },
+      { "label": "Date Range Picker", "exports": ["DateRangePicker"] },
+      { "label": "Active Window Picker", "exports": ["ActiveWindowPicker"] },
+      { "label": "Recurrence Picker", "exports": ["RecurrencePicker"] },
+      { "label": "Publication Rules", "exports": ["PublicationRules"] }
+    ] },
+    { "name": "NAVIGATION", "items": [
+      { "label": "Hook Sidebar", "exports": ["HookSidebar"] },
+      { "label": "Gooey Nav", "exports": ["GooeyNav"] },
+      { "label": "Icon Bar", "exports": ["IconBar"] },
+      { "label": "Tabs", "exports": ["TabList", "Tab"] },
+      { "label": "Breadcrumbs", "exports": ["Breadcrumbs"] },
+      { "label": "Pagination", "exports": ["Pagination"] },
+      { "label": "Command Menu", "exports": ["CommandMenu"] }
+    ] },
+    { "name": "OVERLAYS", "items": [
+      { "label": "Popover", "exports": ["Popover"] },
+      { "label": "Tooltip", "exports": ["Tooltip"] },
+      { "label": "Dialog", "exports": ["Dialog"] },
+      { "label": "Settings Dialog", "exports": ["SettingsDialog"] },
+      { "label": "Alert Dialog", "exports": ["AlertDialog"] },
+      { "label": "Drawer", "exports": ["Drawer"] },
+      { "label": "Context Menu", "exports": ["ContextMenu"] }
+    ] },
+    { "name": "FEEDBACK", "items": [
+      { "label": "Toast", "exports": ["Toast"] },
+      { "label": "Inline Alert", "exports": ["InlineAlert"] },
+      { "label": "Status Badge", "exports": ["StatusBadge"] },
+      { "label": "Progress", "exports": ["ProgressBar"] },
+      { "label": "Skeleton", "exports": ["Skeleton"] },
+      { "label": "Empty State", "exports": ["EmptyState"] },
+      { "label": "Error State", "exports": ["ErrorState"] }
+    ] },
+    { "name": "LAYOUT", "items": [
+      { "label": "Card", "exports": ["Card"] },
+      { "label": "Panel", "exports": ["Panel"] },
+      { "label": "Accordion", "exports": ["Accordion"] },
+      { "label": "Divider", "exports": ["Divider"] },
+      { "label": "Toolbar", "exports": ["Toolbar"] }
+    ] },
+    { "name": "DATA DISPLAY", "items": [
+      { "label": "Data Table", "exports": ["DataTable"] },
+      { "label": "Data List", "exports": ["DataList"] },
+      { "label": "Avatar", "exports": ["Avatar"] },
+      { "label": "Avatar Group", "exports": ["AvatarGroup"] },
+      { "label": "Key Value", "exports": ["KeyValue"] },
+      { "label": "Activity Timeline", "exports": ["ActivityTimeline"] },
+      { "label": "Animated Counter", "exports": ["AnimatedCounter"] }
+    ] },
+    { "name": "MEDIA", "items": [
+      { "label": "File Upload", "exports": ["FileUpload"] },
+      { "label": "Media Preview", "exports": ["MediaPreview"] },
+      { "label": "Carousel Preview", "exports": ["CarouselPreview"] },
+      { "label": "Video Controls", "exports": ["VideoControls"] },
+      { "label": "Asset Picker", "exports": ["AssetPicker"] },
+      { "label": "Folder", "exports": ["Folder"] }
+    ] },
+    { "name": "AI KIT", "items": [
+      { "label": "Grid Reveal", "exports": ["GridReveal"] },
+      { "label": "Generation Status", "exports": ["GenerationStatus"] },
+      { "label": "Prompt Input", "exports": ["PromptInput"] },
+      { "label": "Agent Presence", "exports": ["AgentPresence"] },
+      { "label": "Social Agents", "exports": ["SocialAgents", "SocialAgentAvatar"] },
+      { "label": "Streaming Text", "exports": ["StreamingText"] },
+      { "label": "Generation Queue", "exports": ["GenerationQueue"] }
+    ] }
+  ]
+}
