@@ -1,6 +1,6 @@
 {
   "name": "genesis-ui-react",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Genesis UI components and design foundations for React",
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
     "NOTICE.md"
   ],
   "bin": {
-    "genesis-ui-demo": "./bin/genesis-ui-demo.mjs"
+    "genesis-ui-demo": "bin/genesis-ui-demo.mjs"
   },
   "exports": {
     ".": {

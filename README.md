@@ -8,7 +8,7 @@ Componentes, ícones e foundations da Genesis UI prontos para projetos React. O 
 npm install genesis-ui-react
 ```
 
-Também é possível instalar diretamente a tag do GitHub com `npm install github:Apolo761/genesis-ui-react#v0.3.0`. O projeto precisa de React e React DOM 18.3. Importe os estilos uma vez, normalmente no arquivo principal da aplicação:
+Também é possível instalar diretamente a tag do GitHub com `npm install github:Apolo761/genesis-ui-react#v0.3.1`. O projeto precisa de React e React DOM 18.3. Importe os estilos uma vez, normalmente no arquivo principal da aplicação:
 
 ```tsx
 import 'genesis-ui-react/styles.css';

@@ -6,4 +6,4 @@
 4. Publique a tag no GitHub após confirmar que os arquivos em `dist/` correspondem ao código-fonte.
 5. Com a conta npm proprietária do nome `genesis-ui-react`, publique localmente com `npm publish --access public`. A publicação com proveniência exige um ambiente de CI compatível.
 
-O repositório GitHub hospeda a biblioteca, o build pronto, a demonstração independente e a documentação. Instale a versão publicada com `npm install genesis-ui-react`; a tag do GitHub fica disponível com `npm install github:Apolo761/genesis-ui-react#v0.3.0`.
+O repositório GitHub hospeda a biblioteca, o build pronto, a demonstração independente e a documentação. Instale a versão publicada com `npm install genesis-ui-react`; a tag do GitHub fica disponível com `npm install github:Apolo761/genesis-ui-react#v0.3.1`.
