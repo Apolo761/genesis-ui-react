@@ -1,6 +1,6 @@
 # Genesis UI for React
 
-Componentes, ícones e foundations da Genesis UI prontos para projetos React. Este repositório contém somente a biblioteca, sem a aplicação Genesis ou dados de personas. A API cobre as 83 entradas do [catálogo de referência](https://github.com/Apolo761/genesis-ui-react/blob/main/docs/CATALOG.md).
+Componentes, ícones e foundations da Genesis UI prontos para projetos React. O pacote inclui a biblioteca e a página interativa de demonstração, sem a aplicação Genesis ou dados de personas. A API cobre as 83 entradas do [catálogo de referência](https://github.com/Apolo761/genesis-ui-react/blob/main/docs/CATALOG.md).
 
 ## Instalar
 
@@ -8,7 +8,7 @@ Componentes, ícones e foundations da Genesis UI prontos para projetos React. Es
 npm install genesis-ui-react
 ```
 
-Também é possível instalar diretamente a tag do GitHub com `npm install github:Apolo761/genesis-ui-react#v0.2.0`. O projeto precisa de React e React DOM 18.3. Importe os estilos uma vez, normalmente no arquivo principal da aplicação:
+Também é possível instalar diretamente a tag do GitHub com `npm install github:Apolo761/genesis-ui-react#v0.3.0`. O projeto precisa de React e React DOM 18.3. Importe os estilos uma vez, normalmente no arquivo principal da aplicação:
 
 ```tsx
 import 'genesis-ui-react/styles.css';
@@ -30,6 +30,16 @@ export function Example() {
 ```
 
 O CSS contém o tema, os estilos e o motion dos componentes. Para usar apenas os tokens, importe `genesis-ui-react/foundations.css`; os valores também estão em `genesis-ui-react/tokens`.
+
+## Página de demonstração
+
+Depois de instalar o pacote no projeto, inicie o catálogo interativo com:
+
+```sh
+npx genesis-ui-demo
+```
+
+Abra o endereço local exibido no terminal. A página traz as demonstrações e interações dos elementos; o servidor usa a porta 5174 por padrão e escolhe a próxima disponível quando ela já estiver ocupada.
 
 ## Elementos
 
